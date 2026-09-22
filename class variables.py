@@ -1,2 +1,2 @@
 class Car:
-    def 
+    def __init__(self, ):
