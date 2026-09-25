@@ -6,6 +6,7 @@ class Car:
         self.for_sale = for_sale
 
 
+# Create objects of the Car class
 car1 = Car("Clio Classique", 2007, "Grey", False)       
 
 print(car1.model)  # Output: Clio Classique
