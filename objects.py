@@ -8,7 +8,16 @@ class Car:
     def describe(self):
         print(f"This is a {self.color} {self.model} from {self.year}. For sale: {self.for_sale}")
 
+    def drive(self):
+        print(f"The {self.model} is now driving.")
+        
+    def stop(self):
+        print(f"The {self.model} has stopped.")
+        
+        
+                
 # Create objects of the Car class
+
 car1 = Car("Clio Classique", 2007, "Grey", False)       
 car1.describe()
 
