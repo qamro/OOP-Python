@@ -20,6 +20,8 @@ class Car:
 
 car1 = Car("Clio Classique", 2007, "Grey", False)       
 car1.describe()
+car1.drive()
+car1.stop()
 
 print(car1.model)  # Output: Clio Classique
 print(car1.year)   # Output: 2007
@@ -30,6 +32,8 @@ print()  # Print a blank line for separation
 
 car2 = Car("BMW M3", 2026, "Red", True)
 car2.describe()
+car2.drive()
+car2.stop()
 
 print(car2.model)  # Output: BMW M3
 print(car2.year)   # Output: 2026
