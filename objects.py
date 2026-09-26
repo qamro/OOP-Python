@@ -21,25 +21,27 @@ class Car:
                 
 # Create objects of the Car class
 
-car1 = Car("Clio Classique", 2007, "Grey", False)       
-car1.describe()
-car1.drive()
-car1.stop()
-car1.update_for_sale(True)  # Update the for_sale status to True
+car1 = Car("Clio Classique", 2007, "Grey", False)     
 
 print(car1.model)  # Output: Clio Classique
 print(car1.year)   # Output: 2007
 print(car1.color)  # Output: Grey
 print(car1.for_sale)  # Output: False
 
+car1.describe()
+car1.drive()
+car1.stop()
+car1.update_for_sale(True)  # Update the for_sale status to True
+
 print()  # Print a blank line for separation
 
 car2 = Car("BMW M3", 2026, "Red", True)
-car2.describe()
-car2.drive()
-car2.stop()
 
 print(car2.model)  # Output: BMW M3
 print(car2.year)   # Output: 2026
 print(car2.color)  # Output: Red
 print(car2.for_sale)  # Output: True
+
+car2.describe()
+car2.drive()
+car2.stop()
