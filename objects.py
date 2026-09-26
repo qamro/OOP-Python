@@ -13,7 +13,10 @@ class Car:
         
     def stop(self):
         print(f"The {self.model} has stopped.")
-        
+    
+    def update_for_sale(self, new_status):
+        self.for_sale = new_status
+        print(f"The for_sale status of {self.model} has been updated to: {self.for_sale}")    
         
                 
 # Create objects of the Car class
