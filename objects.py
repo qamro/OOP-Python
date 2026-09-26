@@ -25,6 +25,7 @@ car1 = Car("Clio Classique", 2007, "Grey", False)
 car1.describe()
 car1.drive()
 car1.stop()
+car1.update_for_sale(True)  # Update the for_sale status to True
 
 print(car1.model)  # Output: Clio Classique
 print(car1.year)   # Output: 2007
