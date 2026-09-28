@@ -8,7 +8,8 @@ A collection of Python exercises and mini-projects focused on Object-Oriented Pr
 - Encapsulation
 - Polymorphism
 - Abstraction
-
+- Magic methods 
+- @Decorators
 ## Getting Started
 ```bash
 git clone https://github.com/qamro/OOP-python.git
