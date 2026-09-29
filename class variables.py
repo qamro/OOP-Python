@@ -13,4 +13,5 @@ class student:
 # creating objects of student class
 
 student1 = student("Qamro", 18, "ESTIN")
+print(student1.name)
         
