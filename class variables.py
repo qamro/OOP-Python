@@ -14,4 +14,14 @@ class student:
 
 student1 = student("Qamro", 18, "ESTIN")
 print(student1.name)
-        
+print(student1.age)
+print(student1.school)
+print(student1.class_year)
+
+print()
+
+student2 = student("Ahmed", 18, "ESI Alger")
+print(student2.name)
+print(student2.age)
+print(student2.school)        
+print(student2.class_year)       
