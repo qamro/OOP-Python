@@ -1,0 +1,1 @@
+# multiple inheritance means that a class can inherit from multiple classes
