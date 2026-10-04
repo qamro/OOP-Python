@@ -21,4 +21,4 @@ python main.py
 - Python 3.x
 
 ## License
-MIT
+MIT (use it as u want)
