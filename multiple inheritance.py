@@ -15,6 +15,6 @@ class teacher:
         print(f"Teacher name is {self.name}")
 
 class school(student, teacher):
-    def __init__(self, student_name, teacher_name):
-        student.__init__(self, student_name)
-        teacher.__init__(self, teacher_name)
+    def description(self):
+        self.student_info()
+        self.teacher_info()
