@@ -16,7 +16,9 @@ class Dog(Animal):
     def speak(self):
         print("HOOOW!!")
         
-class Kimi(Dog, Animal):  # here we are inheriting from both the animal and dog class
+        
+# here we are inheriting from both the animal and dog class(we put the child class(Dog) first then the parent class(Animal)        
+class Kimi(Dog, Animal):  
 
     def speak_up(self):
         print("HOOOW!! HOOOW!!") 
@@ -27,3 +29,11 @@ kimi.eat()
 kimi.sleep()
 kimi.speak()  
 kimi.speak_up()  
+
+
+"""
+NOTE:
+just a simple note
+if u inherit from multiple classes and all these classes are parents so u can put the parent classes in any order 
+but if u inherit from multiple classes and one of these classes is a child class so u have to put the child class first and then the parent class
+"""
