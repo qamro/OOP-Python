@@ -2,22 +2,24 @@
 
 class Animal:
         
+    def __init__(self, name):
+        self.name = name
+        
+                
     def eat(self):
         print(f"{self.name} is eating")    
         
     def sleep(self):
         print(f"{self.name} is asleep")
 
-class Dog:
-    def __init__(self, name):
-        self.name = name
+class Dog(Animal):
         
     def speak(self):
         print("HOOOW!!")
         
         
-# here we are inheriting from both the animal and dog class       
-class Kimi(Dog, Animal):  
+# here we are inheriting from the dog class which is already inherited from the animal class     
+class Kimi(Dog):  
 
     def speak_up(self):
         print("HOOOW!! HOOOW!!") 
