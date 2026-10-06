@@ -1,20 +1,19 @@
 # multiple inheritance means that a class can inherit from multiple classes
 
-class student:
+class Animal:
     def __init__(self, name):
         self.name = name
+        self.is_alive = True
         
-    def student_info(self):
-        print(f"Student name is {self.name}")
+    def eat(self):
+        print(f"{self.name} is eating")    
+        
+    def sleep(self):
+        print(f"{self.name} is asleep")
 
-class teacher:
+class Dog(Animal):
     def __init__(self, name):
-        self.name = name
+        super().__init__(name)
 
-    def teacher_info(self):
-        print(f"Teacher name is {self.name}")
-
-class school(student, teacher):
-    def description(self):
-        self.student_info()
-        self.teacher_info()
+    def speak(self):
+        print("HOOOW!!")
