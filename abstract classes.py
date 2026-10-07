@@ -3,3 +3,4 @@
 
 # abstract classes contain abstract methods that we cant implement directly in the abstract class
 # but we can implement them in the child class
+# we require the child class to implement the abstract methods of the abstract class
