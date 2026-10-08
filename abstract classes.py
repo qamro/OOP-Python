@@ -28,7 +28,9 @@ class Car(Vehicle): # here we are inheriting from the abstract class Vehicle
         print("Car is stopping")
 
 
-
+car = Car() # here we are creating an object of the child class Car
+car.start() # here we are calling the start method of the child class Car
+car.stop() # here we are calling the stop method of the child class Car
 
 
 
