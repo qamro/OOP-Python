@@ -42,6 +42,10 @@ car = Car() # here we are creating an object of the child class Car
 car.start() # here we are calling the start method of the child class Car
 car.stop() # here we are calling the stop method of the child class Car
 
+bike = Bike() # here we are creating an object of the child class Bike
+bike.start() # here we are calling the start method of the child class Bike
+bike.stop() # here we are calling the stop method of the child class Bike
+
 
 
 """
