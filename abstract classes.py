@@ -26,4 +26,17 @@ class Car(Vehicle): # here we are inheriting from the abstract class Vehicle
         
     def stop(self): # here we are implementing the abstract method stop
         print("Car is stopping")
+
+
+
+
+
+
+"""
+NOTE:
+just a simple notes
+-the abstract class can have both abstract and non-abstract methods
+-the child class must implement all the abstract methods of the abstract class 
+-if the child doesnt implement all the abstract methods, the child will be an abstract class too so we cant create object from it
+"""
             
