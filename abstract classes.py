@@ -11,6 +11,6 @@
 
 from abc import ABC, abstractmethod
 
-class Vehicle(ABC):
+class Vehicle(ABC): # like that we can create an abstract class by inheriting from the ABC class
     
     
