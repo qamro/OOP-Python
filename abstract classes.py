@@ -18,3 +18,12 @@ class Vehicle(ABC): # like that we can create an abstract class by inheriting fr
         pass # we can use the pass statement to indicate that the method is abstract and has no implementation
     def stop(self):
         pass
+    
+class Car(Vehicle): # here we are inheriting from the abstract class Vehicle
+    
+    def start(self): # here we are implementing the abstract method start
+        print("Car is starting")
+        
+    def stop(self): # here we are implementing the abstract method stop
+        print("Car is stopping")
+            
