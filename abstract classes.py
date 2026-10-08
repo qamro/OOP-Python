@@ -28,6 +28,16 @@ class Car(Vehicle): # here we are inheriting from the abstract class Vehicle
         print("Car is stopping")
 
 
+class Bike(Vehicle): # here we are inheriting from the abstract class Vehicle
+    
+    def start(self): # here we are implementing the abstract method start
+        print("Bike is starting")
+        
+    def stop(self): # here we are implementing the abstract method stop
+        print("Bike is stopping")
+        
+        
+
 car = Car() # here we are creating an object of the child class Car
 car.start() # here we are calling the start method of the child class Car
 car.stop() # here we are calling the stop method of the child class Car
