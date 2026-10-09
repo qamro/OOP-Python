@@ -3,8 +3,9 @@
 # where it can be used to call methods from a parent class without explicitly naming it.
 
 class circle:
-    pass
-
+    def __init__(self, color, radius):
+        self.color = color
+        self.radius = radius
 class rectangle:
     pass
 
