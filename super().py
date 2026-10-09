@@ -27,14 +27,34 @@ class rectangle(Shape):
         self.height = height
         self.width = width  
 
+    def describe(self):
+            print(f"the area of the rectangle is {self.height * self.width}")
+            super().describe()  # here we are calling the describe method of the parent class Shape using the super() function
 
 class square(Shape):
     def __init__(self, color, width):
         super().__init__(color)
         self.width = width
-
+    def describe(self):
+        print(f"the area of the square is {self.width * self.width}")
+        super().describe()  # here we are calling the describe method of the parent class Shape using the super() function
 
 circle = circle("red", 5)
 print(circle.color)
 print(circle.radius)
 circle.describe()
+
+print()
+
+rectangle = rectangle("blue", 4, 6)
+print(rectangle.color)
+print(rectangle.height)
+print(rectangle.width)
+rectangle.describe()
+
+print()
+
+square = square("green", 4)
+print(square.color)
+print(square.width)
+square.describe()
