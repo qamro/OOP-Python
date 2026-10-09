@@ -6,17 +6,17 @@
 class Shape:  # this class is the parent class and its called the super class
     def __init__(self, color):
         self.color = color
-class circle:
+class circle(Shape):  # this class is the child class and its called the sub class
     def __init__(self, color, radius):
         super().__init__(color)
         self.radius = radius
-class rectangle:
+class rectangle(Shape):
     def __init__(self, color, height, width):
         super().__init__(color)
         self.height = height
         self.width = width  
 
-class square:
+class square(Shape):
     def __init__(self, color, width):
         super().__init__(color)
         self.width = width
