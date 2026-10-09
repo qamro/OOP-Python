@@ -13,4 +13,5 @@ class rectangle:
         self.width = width  
 
 class square:
-    pass
+    def __init__(self, color, width):
+        
