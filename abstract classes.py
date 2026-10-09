@@ -14,8 +14,10 @@ from abc import ABC, abstractmethod
 class Vehicle(ABC): # like that we can create an abstract class by inheriting from the ABC class
     
     @abstractmethod # like that we can create an abstract method by using the @abstractmethod decorator
-    def start(self):
+    def start(self):  
         pass # we can use the pass statement to indicate that the method is abstract and has no implementation
+    
+    @abstractmethod
     def stop(self):
         pass
     
