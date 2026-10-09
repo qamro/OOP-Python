@@ -16,6 +16,10 @@ class circle(Shape):  # this class is the child class and its called the sub cla
         super().__init__(color)  # here we are calling the __init__ method of the parent class Shape using the super() function
         self.radius = radius
         
+    def describe(self):
+        print(f"the area of the circle is {3.14 * self.radius * self.radius}")
+        super().describe()  # here we are calling the describe method of the parent class Shape using the super() function
+        
         
 class rectangle(Shape):
     def __init__(self, color, height, width):
@@ -28,3 +32,9 @@ class square(Shape):
     def __init__(self, color, width):
         super().__init__(color)
         self.width = width
+
+
+circle = circle("red", 5)
+print(circle.color)
+print(circle.radius)
+circle.describe()
