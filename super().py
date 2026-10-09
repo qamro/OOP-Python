@@ -7,7 +7,10 @@ class circle:
         self.color = color
         self.radius = radius
 class rectangle:
-    pass
+    def __init__(self, color, length, width):
+        self.color = color
+        self.length = length
+        self.width = width  
 
 class square:
     pass
