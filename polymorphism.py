@@ -21,3 +21,11 @@ class rectangle(shape):
 
     def area(self):
         return self.width * self.height
+    
+
+# create an object which is a list of shapes
+shapes = [circle(5), rectangle(4, 6)]
+
+# iterate through the list of shapes and call the area method on each shape
+for shape in shapes:
+    print(shape.area())
