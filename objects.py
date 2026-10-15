@@ -27,6 +27,7 @@ print(car1.model)  # Output: Clio Classique
 print(car1.year)   # Output: 2007
 print(car1.color)  # Output: Grey
 print(car1.for_sale)  # Output: False
+print(car1.__class__.__name__)  # Output: Car / that __class__.__name__ is used to get the name of the class of the object
 
 car1.describe()
 car1.drive()
