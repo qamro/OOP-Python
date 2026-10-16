@@ -1,5 +1,6 @@
 # polymorphism is the ability of a function or method to work in different ways depending on the object it is acting upon.
-
+# we can achieve polymorphism in python by using abstract classes and abstract methods
+# we can achieve polymorphism also by using inheritance and duck typing
 
 from abc import ABC, abstractmethod
 class shape(ABC):
