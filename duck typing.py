@@ -13,10 +13,14 @@ class Cat(Animal):
         print("Meow!")
         
 class Car:
+    
+    alive = False  # This attribute indicates that a Car is not alive, unlike animals.
+    
     def speak(self):
         print("Vroom!")
 
 animals = [Dog(), Cat(), Car()]
 
 for animal in animals:
-    animal.speak()  # This will call the speak method of each object, regardless of its class                            
+    animal.speak()  # This will call the speak method of each object, regardless of its class   
+    print(animal.alive)
