@@ -5,7 +5,8 @@ class Engine:
         self.horse_power = horse_power
 
 class Wheel:
-    pass
+    def __init__(self, size):
+        self.size = size
 
 class Car:
     pass
