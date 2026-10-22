@@ -9,4 +9,8 @@ class Wheel:
         self.size = size
 
 class Car:
-    pass
+    def __init__(self, make, model, horse_power, wheel_size):
+        self.make = make
+        self.model = model
+        self.engine = Engine(horse_power)  # Composition: Car has an Engine
+        self.wheels = Wheel(wheel_size)  # Composition: Car has Wheels
