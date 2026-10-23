@@ -18,12 +18,23 @@ class Company:
     def list_employees(self):
         return [employee.display_info() for employee in self.employees]
     
-company = Company("Qamro Tech")
+company = Company("Alg Tech")
 
 company.add_employee("Qamro", "AI Engineer")
 company.add_employee("Amine", "Security Engineer")
 company.add_employee("Bassem", "DevOps Engineer")
 company.add_employee("Raid", "Data Scientist")
 
+
+company2 = Company("Qamro Startup")
+company2.add_employee("Qamro", "CEO")
+company2.add_employee("Amine", "Technical Manager")
+company2.add_employee("Bassem", "IT Specialist")
+
 for employee in company.list_employees():
+    print(employee)
+
+print()
+
+for employee in company2.list_employees():
     print(employee)
