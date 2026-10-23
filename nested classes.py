@@ -5,8 +5,8 @@ class Company:
             self.position = position
 
         def display_info(self):
-            print(f"Employee Name: {self.name}, Position: {self.position}")
-        
+            return f"Employee Name: {self.name}, Position: {self.position}"
+
     def __init__(self, name):
         self.name = name
         self.employees = []
@@ -16,7 +16,7 @@ class Company:
         self.employees.append(new_employee)
         
     def list_employees(self):
-        print([employee.display_info() for employee in self.employees])    
+        return [employee.display_info() for employee in self.employees]
     
 company = Company("Qamro Tech")
 
