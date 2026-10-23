@@ -16,7 +16,7 @@ class Company:
         self.employees.append(new_employee)
         
     def list_employees(self):
-        return [employee.display_info() for employee in self.employees]    
+        print([employee.display_info() for employee in self.employees])    
     
 company = Company("Qamro Tech")
 
