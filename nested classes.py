@@ -14,3 +14,6 @@ class Company:
     def add_employee(self, name, position):
         new_employee = self.Employee(name, position)
         self.employees.append(new_employee)
+        
+    def list_employees(self):
+        return [employee.display_info() for employee in self.employees]    
