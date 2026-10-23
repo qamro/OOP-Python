@@ -17,3 +17,6 @@ class Company:
         
     def list_employees(self):
         return [employee.display_info() for employee in self.employees]    
+    
+company = Company("Qamro Tech")
+
