@@ -25,5 +25,5 @@ company.add_employee("Amine", "Security Engineer")
 company.add_employee("Bassem", "DevOps Engineer")
 company.add_employee("Raid", "Data Scientist")
 
-for employee_info in company.list_employees():
-    print(employee_info)
+for employee in company.list_employees():
+    print(employee)
