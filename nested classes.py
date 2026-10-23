@@ -5,7 +5,7 @@ class Company:
             self.position = position
 
         def display_info(self):
-            return f"Employee Name: {self.name}, Position: {self.position}"
+            print(f"Employee Name: {self.name}, Position: {self.position}")
         
     def __init__(self, name):
         self.name = name
