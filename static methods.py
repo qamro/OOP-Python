@@ -6,6 +6,8 @@ class Employee:
     def __init__(self, name, position):
         self.name = name
         self.position = position
+        
+    # this is called instance method    
     def get_info(self):
         return f"Name: {self.name}, Position: {self.position}"    
         
