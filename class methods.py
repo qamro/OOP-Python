@@ -14,7 +14,7 @@ class Student:
         Student.count += 1 # increment the count of students when each object is created
         
     @classmethod
-    def get_class_year(cls):
+    def get_class_year(cls):  # we use cls instead of self to refer to the class itself not to refer to the object of the class
         return cls.class_year
     
     @classmethod
