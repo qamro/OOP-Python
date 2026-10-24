@@ -56,3 +56,19 @@ class Book:
     # it is called when we use the len() function to get the length of an object
     def __len__(self):
         return self.pages
+    
+    
+book1 = Book("Fucking ESTIN", "Qamro", 100)
+book2 = Book("How to get 5 in Archi", "Qamro", 200)
+book3 = Book("How to study fucking electonic", "Qamro", 300)
+
+print(book1)  # Output: Title: Fucking ESTIN, Author: Qamro, Pages: 100
+print(book1 == book2)  # Output: False
+print(book1 > book2)  # Output: False
+print(book1 < book2)  # Output: True
+print(book1 + book2)  # Output: 100 + 200
+print("ESTIN" in book1)  # Output: True
+print(book1["title"])  # Output: Fucking ESTIN
+print(book1["author"])  # Output: Qamro
+print(book1["pages"])  # Output: 100
+print(len(book1))  # Output: 100
