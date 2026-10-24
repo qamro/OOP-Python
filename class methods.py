@@ -20,3 +20,11 @@ class Student:
     @classmethod
     def get_count(cls):
         return cls.count
+    
+    
+student1 = Student("Qamro", 20, "ESTIN")
+student2 = Student("Raid", 21, "ESTIN")
+student3 = Student("Bassem", 22, "ESTIN")    
+
+print(Student.get_class_year())  # 2026
+print(Student.get_count())  # 3
